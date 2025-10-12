@@ -1,12 +1,12 @@
 package com.example.arkanoid.models;
 
-public abstract class PowerUp extends GameObject {
+public class PowerUp extends GameObject {
     protected String type;
     protected int duration;
     protected boolean isActive = false;
 
     public PowerUp(double x, double y, double width, double height, String type, int duration, String imagePath) {
-        super(x, y, width, height, imagePath);
+        super(x, y, width, height,imagePath);
         this.type = type;
         this.duration = duration;
     }
@@ -21,7 +21,8 @@ public abstract class PowerUp extends GameObject {
         return isActive;
     }
 
-    public abstract void applyEffect(Paddle paddle);
-
-    public abstract void removeEffect(Paddle paddle);
+    public void applyEffect(Paddle paddle) {
+    }
+    public void removeEffect(Paddle paddle) {
+    }
 }

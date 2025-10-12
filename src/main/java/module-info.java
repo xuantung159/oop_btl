@@ -1,7 +1,8 @@
 module com.example.arkanoid {
     requires javafx.controls;
     requires javafx.fxml;
-    requires javafx.media;
+    requires java.desktop;
+    requires jdk.jfr;
 
     opens com.example.arkanoid.main to javafx.fxml;
     opens com.example.arkanoid.controllers to javafx.fxml;
