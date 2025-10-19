@@ -1,0 +1,69 @@
+[33md81e362[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mHuu-Canh[m[33m, [m[1;31morigin/Huu-Canh[m[33m)[m fix vận tốc bóng
+[33ma9fa3e3[m Merge remote-tracking branch 'origin/Thuy_Duong' into Huu-Canh
+[33m73815f0[m feat: Add FastBall.java
+[33m9972348[m chore: Add getter/setter for Ball.java
+[33md3031cf[m feat: Add folder Power and class ExpandPaddle
+[33m03c640c[m remove gitignore
+[33m2f7db62[m Lưu src trước khi merge
+[33m18fdbb8[m Merge pull request #15 from xuantung159/DuyHieu
+[33m403d8d7[m Add Sound - DuyHieu
+[33md30f5db[m chore: Add getter/setter for Paddle.java
+[33mcf6e62e[m add image
+[33m822723e[m Merge remote-tracking branch 'origin/Xuan_Tung' into Xuan_Tung
+[33mc9922a3[m Chỉnh sửa
+[33m919bb0d[m Chỉnh sửa
+[33mf9913d9[m Merge branch 'master' into Xuan_Tung
+[33mf87e201[m Chỉnh sửa, thêm levelLoader
+[33m3585261[m quản lý điểm, mạng, level
+[33m1136148[m Merge pull request #13 from xuantung159/Thuy_Duong
+[33mf4fde09[m Update .gitignore
+[33m0e09557[m Merge pull request #10 from xuantung159/Thuy_Duong
+[33m2767549[m Merge pull request #8 from xuantung159/Huu-Canh
+[33mee87a44[m Add .gitignore
+[33mb87dbe5[m feat: add imagePath to PowerUp
+[33m1a67681[m Merge branch 'DuyHieu' into Thuy_Duong
+[33m2db88d8[m Remove target folder from repo and ignore it
+[33m6479fe7[m Them am thanh cho va cham
+[33m7038d40[m Them am thanh cho va cham
+[33m48c2063[m Revert "Merge branch 'Huu-Canh' into Thuy_Duong"
+[33me9147ed[m [refactor]: make PowerUp an abstract class
+[33m2ca885e[m Merge branch 'Huu-Canh' into Thuy_Duong
+[33m743c097[m giu cho ball speed co dinh
+[33meaecc96[m update movable object va powerup sau merge
+[33md8d2616[m Merge branch 'master' of https://github.com/xuantung159/oop_btl into Huu-Canh
+[33mc22072f[m Delete target/classes directory
+[33mc94edac[m Merge pull request #9 from xuantung159/DuyHieu -- Animation Paddle
+[33m213cbcc[m Merge branch 'master' into DuyHieu
+[33me911eda[m Merge pull request #6 from xuantung159/Xuan_Tung
+[33md133888[m Merge pull request #6 from xuantung159/Xuan_Tung
+[33m143dec3[m xoa git ignore commit nham
+[33me412a5e[m sua va cham ball-paddle
+[33m7c6cfac[m ball va chạm với paddle trong GameManager.java
+[33m93d03e8[m Remove git ignore
+[33m2075798[m ball va chạm với paddle
+[33m90b6bfc[m complete pull code cua Thuy_Duong
+[33ma256f5d[m save Duong's code
+[33me70e6bc[m Merge remote-tracking branch 'origin/Thuy_Duong' into Huu-Canh
+[33meb2fac1[m Merge branch 'master' into Thuy_Duong
+[33m3972573[m Merge pull request #6 from xuantung159/Xuan_Tung
+[33m66dcad4[m Add basic interface
+[33m2a7f079[m Merge pull request #5 from xuantung159/Xuan_Tung
+[33m13bb173[m add basic interface
+[33m7a97cbd[m Update PowerUp.java
+[33mf0a42bc[m Merge branch 'master' into Thuy_Duong
+[33m9dc4dfe[m Delete .idea
+[33mfa19262[m Add PowerUp
+[33m67660c0[m update Ball.java only
+[33m3e260bd[m remove git ignore
+[33md5fdcd7[m remove idea
+[33m410de76[m add gitignore
+[33m3bc43bb[m Ball, Brck, MoveableObject and GameObject, movement and collision
+[33m6156698[m Merge pull request #3 from xuantung159/Xuan_Tung
+[33m870fa58[m Merge branch 'master' into Xuan_Tung
+[33mb4ee005[m Add file
+[33m06bdff8[m Update README.md
+[33md7815d6[m Add pom
+[33m2822cdf[m Add folder src
+[33mf78d486[m Merge pull request #1 from xuantung159/Xuan_Tung
+[33m7890091[m Update README.md
+[33m8169d34[m First Commit
