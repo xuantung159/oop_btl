@@ -119,16 +119,15 @@ public class GameManager {
                 // Tính vị trí chạm để xác định góc bật
                 double paddleCenter = paddleLeft + paddle.getWidth() / 2.0;
                 double ballCenter = ballLeft + ball.getWidth() / 2.0;
-                double hitPosition = (ballCenter - paddleCenter) / (paddle.getWidth() / 2.0); // [-1..1]
+                double hitPosition = (ballCenter - paddleCenter) / (paddle.getWidth() / 2.0);
                 hitPosition = Math.max(-1, Math.min(1, hitPosition));
 
                 double MAX_DEFLECT = Math.toRadians(60);
                 double angle = -Math.PI / 2 + hitPosition * MAX_DEFLECT;
 
                 double MIN_AWAY = Math.toRadians(10);
-                double away = Math.abs(angle + Math.PI / 2);
-                if (away < MIN_AWAY) {
-                    angle = (angle < -Math.PI / 2) ? -Math.PI / 2 - MIN_AWAY : -Math.PI / 2 + MIN_AWAY;
+                if (Math.abs(angle + Math.PI / 2) < MIN_AWAY) {
+                    angle = -Math.PI / 2 + Math.copySign(MIN_AWAY, angle + Math.PI / 2);
                 }
 
                 ball.dx = BALL_SPEED * Math.cos(angle);
